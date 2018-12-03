@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <title>Aravind Eye Foundation</title>
 </head>
@@ -33,13 +33,13 @@
                             <a class="nav-link" href="#support">Support Aravind</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Volunteer</a>
+                            <a class="nav-link" href="https://ideaenvy.github.io/aravind/get-involved/volunteer.html" target="_blank">Volunteer</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Donate</a>
+                            <a class="nav-link" href="./donate.html">Donate</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">News</a>
+                            <a class="nav-link" href="./news.html">News</a>
                         </li>
                     </ul>
                 </div>
@@ -70,7 +70,7 @@
                 <div class="row row-eq-height division">
                     <div class="col-lg-5 sm-mb-15px">
                         <div class="image-container">
-                            <img src="/assets/images/organization.jpg" alt="" srcset="">
+                            <img src="./assets/images/organization.jpg" alt="" srcset="">
                         </div>
                     </div>
                     <div class="col-lg-7 sm-mb-15px">
@@ -294,33 +294,9 @@
 </section>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
     <script defer="" src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <script>
-        $('.nav-link').click(function() {
-                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-                    || location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top - 60
-                        }, 500);
-                        return false;
-                    }
-                }
-            });
-            var myVar;
-
-function myFunction() {
-    myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
-    </script>
 
 </body>
 </html>
