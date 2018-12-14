@@ -1,8 +1,8 @@
 $(window).bind('scroll', function () {
     if ($(window).scrollTop() > 70) {
-        $('#header-nav').addClass('bg-primary');
+        $('#header-nav').addClass('bg-dark_grey');
     } else {
-        $('#header-nav').removeClass('bg-primary');
+        $('#header-nav').removeClass('bg-dark_grey');
     }
 });
 

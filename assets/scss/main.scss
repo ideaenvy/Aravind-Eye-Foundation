@@ -12,6 +12,10 @@ body {
   background-color: #fff;
 }
 
+.bg-dark_grey{
+  background: rgba(45,45,45,0.98);
+}
+
 a {
   text-decoration: none;
 }
@@ -70,7 +74,7 @@ header {
     }
   }
 
-  .bg-primary {
+  .bg-dark_grey {
     .social-links {
       .social-icons {
         .links {
@@ -572,12 +576,10 @@ header {
 }
 
 .footer {
-  padding: 6rem 0 1rem 0;
-  background: #ccc;
-  .footer-logo {
-    margin-bottom: 1rem;
-  }
+  padding: 1.5rem 0 0.5rem 0;
+  background: rgba(45,45,45,0.98);
   .address {
+    color: #fff;
     .heading {
       font-weight: 600;
     }
@@ -585,7 +587,7 @@ header {
       margin-bottom: 0;
     }
     .contact {
-      color: #1f2429;
+      color: #fff;
       font-weight: 500;
     }
   }
@@ -626,7 +628,7 @@ header {
   .copyright-text {
     text-align: center;
     margin: 0;
-    color: rgba(0, 0, 0, 0.7) !important;
+    color: rgba(255,255,255, 0.9) !important;
   }
 }
 
@@ -813,4 +815,9 @@ header {
       }
     }
   }
+}
+span.designation {
+  font-size: 12px;
+  display: block;
+  text-indent: 1rem;
 }
