@@ -194,6 +194,9 @@
                     </div>
                 </section>
             </main>
+
+            
+
             <footer class="footer">
                 <div class="container">
                     <div class="row">
@@ -214,11 +217,52 @@
                     <p class="copyright-text">Aravind Eye Foundation © 2018 - 2019 All Rights Reserved.</p>
                 </div>
             </footer>
+            <div class="modal fade president-msg" id="message" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">President's Message</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="message">
+                                <div class="greetings-to">
+                                    <p>Dear Friends,</p>
+                                </div>
+                                <div class="content-body">
+                                    <p>It would have been Dr. V’s one hundredth birthday on October 1st. Everyone who was fortunate enough to have met him will attest to the humble power of this singular man. He lives on in each of us with his quiet voice that speaks of kindness, dignity and responsibility. He had a relentless focus on what seemed to be an impossible dream and the ability to inspire others to believe that it was achievable and that they should join him on the journey, and they did.</p>
+                                    <p>I first met Dr. V in 1981 when I had the good fortune of spending one month at Aravind. I went there as a senior surgical resident to perfect my surgical skills before going out in to world as an ophthalmologist, but what I learned there went far beyond suturing technique. Dr. V opened my eyes to the potential in all of us for giving and service that extends way past what we alone can imagine. I immediately bonded with him in that short period of time and knew that my life would somehow always include Aravind, and here I am 37 years later. At some point he said to me that I had been with the Aravind family in an earlier life, and, amazingly, that makes perfect sense to me. It is a distinct honor for me to be part of the enormous, international Aravind Family.</p>
+                                </div>
+                                <div class="thk-note">
+                                    <p>Thank you, Dr. V.</p>
+                                </div>
+                                <div class="msg-footer">
+                                    <address>
+                                        Warmest regards,
+                                        <span>Dr. Christine Melton,</span>
+                                        <span>President, Board of Directors,</span>
+                                        <span>Aravind Eye Foundation</span>
+                                    </address>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="./assets/js/bootstrap.min.js"></script>
         <script src="./assets/js/custom.js"></script>
+        <script>
+            $(document).ready(function() {
+                setTimeout(function(){
+                    $('#message').modal('show');
+                }, 4000);
+            });
+        </script>
         <script defer="" src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     </body>
 </html>

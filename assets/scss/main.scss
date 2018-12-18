@@ -994,3 +994,39 @@ span.designation {
   padding-left: 0.9rem;
   padding-right: 0.9rem;
 }
+.modal-dialog {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
+}
+.message{
+  font-size: 15px;
+  .greetings-to{
+    p{
+      font-weight: 500;
+    }
+  }
+  .content-body{
+    p{
+      font-size: 14px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+  .thk-note{
+    p{
+      margin-bottom: 2rem;
+    }
+  }
+  .msg-footer{
+    address{
+      margin: 0;
+      span{
+        display: block;
+      }
+    }
+  }
+}
