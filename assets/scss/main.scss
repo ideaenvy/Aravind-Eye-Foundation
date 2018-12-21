@@ -594,6 +594,22 @@ header {
       color: #fff;
       font-weight: 500;
     }
+    
+  }
+  .quote-area {
+    
+    .quote-text {
+      color: #fff;
+      font-weight: 500;
+      font-size: 0.8rem;
+    }
+    .author {
+      text-align: justify;
+      float: right;
+      font-size: 13px;
+      margin-right: 10px;
+      font-weight: 600;
+    }
   }
   .social-icons {
     padding: 0;
@@ -615,18 +631,6 @@ header {
           font-size: 1.2rem;
         }
       }
-    }
-  }
-  .quote-area {
-    margin: 15px 0;
-    .quote-text {
-      color: #494949;
-      font-weight: 500;
-    }
-    .author {
-      text-align: right;
-      margin-right: 10px;
-      font-weight: 600;
     }
   }
   .copyright-text {
