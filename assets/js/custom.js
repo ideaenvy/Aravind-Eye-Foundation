@@ -28,10 +28,13 @@ function myFunctionsu(x) {
     if (x.matches) { // If media query matches
        
         $('#header-nav').addClass('bg-dark_grey');
+        $('.navbar-toggler').addClass('collapsed');
+
         
     } else {
         
         $('#header-nav').removeClass('bg-dark_grey');
+        $('.navbar-toggler').removeClass('collapsed');
         
         $(window).bind('scroll', function () {
             if ($(window).scrollTop() > 70) {

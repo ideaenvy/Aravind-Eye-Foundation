@@ -168,7 +168,7 @@
           }
         }
 
-        // For nesting containers, have to redeclare for alignment purposes
+     /*    // For nesting containers, have to redeclare for alignment purposes
         > .container,
         > .container-fluid {
           flex-wrap: nowrap;
@@ -180,7 +180,7 @@
           // Changes flex-bases to auto because of an IE10 bug
           flex-basis: auto;
         }
-
+ */
         .navbar-toggler {
           display: none;
         }
