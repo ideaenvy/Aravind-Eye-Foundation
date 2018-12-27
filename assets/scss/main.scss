@@ -593,6 +593,11 @@ header {
     .contact {
       color: #fff;
       font-weight: 500;
+      margin: 0;
+    }
+    .mail {
+      color: #fff;
+      font-weight: 500;
     }
     
   }
@@ -1007,6 +1012,7 @@ span.designation {
 }
 .message{
   font-size: 15px;
+  padding: 30px 0 0;
   .greetings-to{
     p{
       font-weight: 500;
