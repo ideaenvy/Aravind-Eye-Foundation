@@ -582,6 +582,16 @@ header {
 .footer {
   padding: 1.5rem 0 0.5rem 0;
   background: rgba(45,45,45,0.98);
+  .row{
+    align-items: center;
+  }
+  .footer-logo{
+    text-align: center;
+    margin-bottom: 1rem;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
   .address {
     color: #fff;
     .heading {
@@ -602,11 +612,10 @@ header {
     
   }
   .quote-area {
-    
     .quote-text {
       color: #fff;
       font-weight: 500;
-      font-size: 0.8rem;
+      font-size: 1rem;
     }
     .author {
       text-align: justify;
